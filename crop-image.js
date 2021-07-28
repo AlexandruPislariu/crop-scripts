@@ -3,7 +3,7 @@ const sharp = require("sharp");
 const images = ["large.jpeg", "test.jpg"];
 
 for (let image of images) {
-  sharp(`./initial/${image}`)
+  sharp(`./images/${image}`)
     .extract({
       left: 0,
       top: 0,
@@ -19,7 +19,7 @@ for (let image of images) {
       }
     );
 
-  sharp(`./initial/${image}`)
+  sharp(`./images/${image}`)
     .resize(400, 400)
     .toFile(`./resized/${image.split(".")[0]}.new-resize.jpeg`, function (err) {
       if (err) {
