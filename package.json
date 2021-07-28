@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AlexandruPislariu/cropt-image#readme",
   "dependencies": {
+    "ffmpeg": "^0.0.4",
     "sharp": "^0.28.3"
   }
 }
