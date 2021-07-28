@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AlexandruPislariu/cropt-image/issues"
   },
-  "homepage": "https://github.com/AlexandruPislariu/cropt-image#readme"
+  "homepage": "https://github.com/AlexandruPislariu/cropt-image#readme",
+  "dependencies": {
+    "sharp": "^0.28.3"
+  }
 }
